@@ -6,12 +6,12 @@ body{
 }
 ul{
     display: flex;
-    justify-content: space-between;
     list-style-type: none;
     align-items: center;
     padding: 16px;
 
 }
+
 a{
     color: white;
 }
@@ -25,8 +25,33 @@ header img{
     text-align: center;
 
 }
-h1{
-    color:blueviolet
+h2{
+    color:blueviolet;
+    text-align: center;
+    
+}
+mark{
+    background-color: blueviolet;
+}
+h3{
+    color:rgb(233, 163, 240);
+    text-align: center;
+}
+abbr {
+    display: inline;
+  }
+h4{
+    text-align: left;
+}
+h5{
+    text-align: left;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+hr{
+     
+	border: 1px solid; 
+	border-color: #f00 #960 #00f #0f0;
 }
 footer img{
     width: 40px;
